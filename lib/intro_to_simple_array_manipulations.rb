@@ -41,3 +41,7 @@ end
 def using_delete(instructors, element)
  no_offense_steven =  instructors.delete(element)
 end
+
+def using_delete_at()
+  
+end
