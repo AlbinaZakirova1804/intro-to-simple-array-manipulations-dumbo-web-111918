@@ -39,5 +39,5 @@ def using_flatten(private_colleges_in_newyork)
 end
 
 def using_delete(instructors, element)
-  =  instructors.delete(element)
+ no_offense_steven =  instructors.delete(element)
 end
