@@ -10,7 +10,7 @@ def using_pop(great_hits_of_the_nineties)
   @deleted_string = great_hits_of_the_nineties.pop
 end
 
-def pop_with_arg(chars_in_game_of_thrones)
+def pop_with_args(chars_in_game_of_thrones)
   @chars_arya_killed =chars_in_game_of_thrones.pop(2)
 end
 
@@ -18,7 +18,7 @@ def using_shift(my_favorite_cities)
   @im_so_over_this_city = my_favorite_cities.shift
 end
 
-def shift_with_arg(ice_cream_brands)
+def shift_with_args(ice_cream_brands)
   @brands_removed = ice_cream_brands.shift(2)
 end
 
@@ -38,6 +38,10 @@ def using_flatten(private_colleges_in_newyork)
   flat_array = private_colleges_in_newyork.flatten
 end
 
-def using_delete()
-  
+def using_delete(instructors, element)
+ no_offense_steven =  instructors.delete(element)
+end
+
+def using_delete_at(famous_robots, index)
+   deleted_robot = famous_robots.delete_at(index)
 end
